@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendario Interactivo - PWD 7° 2°</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="calendar">
+        <div class="calendar_info">
+            <div class="btn-nav" id="prev-month">&#9664;</div>
+            <div class="calendar_header_text">
+                <div class="calendar_month" id="month"></div>
+                <input type="number" class="calendar_year_input" id="year-input">
+            </div>
+            <div class="btn-nav" id="next-month">&#9654;</div>
+        </div>
+
+        <div class="calendar-week">
+            <div class="calendar_item">DO</div>
+            <div class="calendar_item">LU</div>
+            <div class="calendar_item">MA</div>
+            <div class="calendar_item">MI</div>
+            <div class="calendar_item">JU</div>
+            <div class="calendar_item">VI</div>
+            <div class="calendar_item">SA</div>
+        </div>
+
+        <div class="calendar-dates" id="dates"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
